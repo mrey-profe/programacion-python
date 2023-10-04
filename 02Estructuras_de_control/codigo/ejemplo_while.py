@@ -1,8 +1,4 @@
-sumatorio = 0
-i = 0
-
-while sumatorio < 20:
-    i += 1
-    sumatorio += i
-
-print(i)
+for i in range(4):
+    for j in range(4):
+        print(i, j, sep = "", end=" ")
+    print()
