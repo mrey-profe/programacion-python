@@ -1,7 +1,13 @@
-def area_triangulo(base, altura):
-    base = 10
-    return base * altura / 2, 3
+limite = int(input("Introduce el límite superior para bucar números primos:"))
+contador = 0
 
-base = 3
-area, algo = area_triangulo(base, 4)
-print()
+for numero in range(1, limite + 1):
+    primo = True
+    for i in range (2, numero):
+        if numero % i == 0: # Hemos encontrado un divisor
+            primo = False
+            break
+    if primo:
+        contador += 1
+
+print("Hay", contador, "primos.")
