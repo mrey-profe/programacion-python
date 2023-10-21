@@ -1,5 +1,5 @@
-def longest(a1, a2):
-    resultado = a2
+def longest(a1: str, s2: str) -> str:
+    resultado = s2
     for letra in a1:
         print(letra)
         if letra not in resultado:
@@ -13,4 +13,4 @@ def longest(a1, a2):
     resultado_ord = "".join(array.sort())
     return resultado_ord
 
-print(longest("aretheyhere", "yestheyarehere"))
+print(longest("aretheyhere", "aaa"))
