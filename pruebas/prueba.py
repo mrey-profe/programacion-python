@@ -1,13 +1,27 @@
-# Eliminar todos los elementos de una lista que son múltiplos de 5
+incidencias = [[3, 2, 1, 4, 5], [1, 5, 10, 2, 8], [4, 3, 1, 0, 1]]
 
-lista = [1, 2, 16, 15, 34, 25, 10]
+suma = 0
+for f in range(len(incidencias)):
+    suma += incidencias[f][0]
 
-i = 0
+print("La suma de las incidencias de los lunes es ", suma)
 
-while i < len(lista):
-    if lista[i] % 5 == 0:
-        del lista[i] # Cuando borro un elemento no incremento el índice porque el siguiente elemento pasa a ocupar la posición del borrado
-    else:
-        i += 1 
+sumas_incidencias_dia = [0, 0, 0, 0, 0]
 
-print(lista)
+# Suma incidencias por día
+for dia in range(5):
+    for f in range(len(incidencias)):
+        sumas_incidencias_dia[dia] += incidencias[f][dia]
+
+print(sumas_incidencias_dia)
+
+# Suma incidencias por semana
+sumas_incidencias_semana = []
+
+for f in range(len(incidencias)):
+    suma = 0
+    for c in range(len(incidencias[f])):
+        suma += incidencias[f][c]
+    sumas_incidencias_semana.append(suma)
+
+print(sumas_incidencias_semana)
