@@ -1,10 +1,6 @@
-grupos = [
-    ["Ana", "Luis", "Marta"],
-    ["Juan"],
-    ["Elena", "Jorge"]
-]
+# Vamos a hacer un programa ambientado en los libros de Harry Potter
 
-for f in range(len(grupos)):
-    for c in range(len(grupos[f])):
-        print(integrante[f][c], end=", ")
-    print()
+magos = ['Harry Potter', 'Hermione Granger', 'Ron Weasley', 'Albus Dumbledore', 'Severus Snape', 'Lord Voldemort']
+casas = ['Gryffindor', 'Ravenclaw', 'Hufflepuff', 'Slytherin']
+
+fechas_nacimiento = [1980, 1979, 1980, 1881, 1960, 1926]
