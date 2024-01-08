@@ -55,7 +55,7 @@ if __name__ == "__main__":
     print(p1.dni)
     p1.dni = "12345678A"
     print(p1.dni)
-    p1.dni = "53178196B"
+    p1.dni = "41013889J"
     print(p1.dni)
     p1.dni = "12345678"
     print(p1.dni)
