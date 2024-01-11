@@ -19,6 +19,9 @@ class Circulo:
         nuevo_y = self.centro[1] + mover_y
         self.centro = (nuevo_x, nuevo_y)
 
+    def __str__(self):
+        return f"Círculo de radio {self.radio} situado en x = {self.centro[0]} e y = {self.centro[1]}"
+
 if __name__ == "__main__":
     c1 = Circulo(5, (0,1))
     print(c1)
