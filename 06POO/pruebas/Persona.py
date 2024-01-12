@@ -7,7 +7,7 @@ class Persona:
     
     def __init__(self, nombre: str, dni: str, edad: int, altura: float, peso: float) -> None:
         self.nombre = nombre
-        if (Persona.dni_correcto(dni)):
+        if (self.dni_correcto(dni)):
             self._dni = dni
         else:
             self._dni = ""
