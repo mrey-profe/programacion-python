@@ -1,7 +1,7 @@
 from Jugada import Jugada
 
 class Vista:
-    SALIR = 4
+    SALIR = 6
     
     def bienvenida(self):
         print("Bienvenido al juego Piedra, Papel o Tijeras")
@@ -13,6 +13,8 @@ class Vista:
             print("1. Piedra")
             print("2. Papel")
             print("3. Tijeras")
+            print("4. Lagarto")
+            print("5. Spock")
             print(f"{Vista.SALIR}. Salir")
             opcion = int(input("Escoge una opción: "))
             if opcion < 1 or opcion > Vista.SALIR:
@@ -25,6 +27,7 @@ class Vista:
             print("Gracias por jugar")
         else:
             print(f"{verbo} {Jugada(opcion - 1).name.lower()}")
+        
             
     def pedir_nombre_jugador(self) -> str:
         return input("Introduce tu nombre: ")

@@ -31,12 +31,12 @@ class Juego:
     
     def jugar_ronda(self):
         opcion = 0
-        while opcion != 4 and not self.ha_finalizado_partida():
+        while opcion != self.vista.SALIR and not self.ha_finalizado_partida():
             opcion = self.vista.mostrar_menu_opcion()
             self.vista.mostrar_opcion(opcion)
             jugada_computadora = self.computadora.jugada()
             self.vista.mostrar_opcion(jugada_computadora.value + 1, False)
-            if opcion != 4:
+            if opcion != self.vista.SALIR:
                 jugada_jugador = Jugada(opcion - 1)
                 self.compara_jugadas(jugada_jugador, jugada_computadora)
                 self.vista.mostrar_puntuaciones(self.jugador.nombre, self.jugador.puntuacion, self.computadora.puntuacion)
@@ -64,7 +64,7 @@ class Juego:
                 if jugar:
                     self.resetear_puntuaciones()
             else:
-                jugar = False # El usuario ha escogido la opción 4, salir del juego
+                jugar = False # El usuario ha escogido la opción self.vista.SALIR, salir del juego
             
         
         
