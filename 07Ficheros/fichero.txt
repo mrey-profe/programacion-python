@@ -1,0 +1,13 @@
+1º, MP0484, Bases de datos, 187, 7
+1º, MP0487, Contornos de desenvolvemento, 107, 4
+1º, MP0617, Formación e orientación laboral, 107, 4
+1º, MP0373, Linguaxes de marcas e sistemas de xestión de información, 133, 5
+1º, MP0485, Programación, 240, 9
+1º, MP0483, Sistemas informáticos, 186, 7
+2º, MP0615, Deseño de interfaces web, 157, 9
+2º, MP0612, Desenvolvemento web en contorno cliente, 157, 9
+2º, MP0613, Desenvolvemento web en contorno servidor, 175, 10
+2º, MP0614, Despregamento de aplicacións web, 88, 5
+2º, MP0618, Empresa e iniciativa emprendedora, 53, 3
+2º, MP0619, Formación en centros de traballo, 384	
+2º, MP0616, Proxecto de desenvolvemento de aplicacións web, 26	
