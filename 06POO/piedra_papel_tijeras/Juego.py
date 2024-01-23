@@ -22,7 +22,7 @@ class Juego:
         else:
             self.vista.mostrar_empate_jugada()
     
-    def ha_finalizado_partida(self) -> bool:
+    def ha_finalizado_ronda(self) -> bool:
         return self.jugador.puntuacion == 3 or self.computadora.puntuacion == 3
     
     def resetear_puntuaciones(self):
@@ -31,7 +31,7 @@ class Juego:
     
     def jugar_ronda(self):
         opcion = 0
-        while opcion != self.vista.SALIR and not self.ha_finalizado_partida():
+        while opcion != self.vista.SALIR and not self.ha_finalizado_ronda():
             opcion = self.vista.mostrar_menu_opcion()
             self.vista.mostrar_opcion(opcion)
             jugada_computadora = self.computadora.jugada()
@@ -58,7 +58,7 @@ class Juego:
         jugar = True
         while jugar:
             self.jugar_ronda()
-            if self.ha_finalizado_partida():
+            if self.ha_finalizado_ronda():
                 self.determinar_mostrar_ganador_ronda()
                 jugar = self.vista.volver_a_jugar()
                 if jugar:

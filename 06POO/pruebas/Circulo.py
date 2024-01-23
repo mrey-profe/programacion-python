@@ -8,6 +8,7 @@ class Circulo:
         self.radio = radio
         self.centro = centro
 
+    @property
     def area(self) -> float:
         return math.pi * self.radio ** 2
     
@@ -32,7 +33,7 @@ if __name__ == "__main__":
     print(c3.radio)
     c3.radio = 10
     print(c3.radio)
-    print(c3.area())
+    print(c3.area)
     c3.redimensionar(1.5)
     c3.mover(2, 4)
     pass
