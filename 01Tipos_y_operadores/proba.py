@@ -1,3 +1,6 @@
-print("Vamos a calcular el cuadrado de un número")
-numero = input("Introduce un número: ")
-print("El cuadrado de", numero, "es", float(numero) ** 2)
+a = int(input("Dime un número entero: "))
+b = int(input("Dime un número entero: "))
+if a < b:
+    print(a)
+else:
+    print(b)
