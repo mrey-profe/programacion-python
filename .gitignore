@@ -1,3 +1,4 @@
 *.zip
 *.pyc
 .ipynb_checkpoints
+proba.py
