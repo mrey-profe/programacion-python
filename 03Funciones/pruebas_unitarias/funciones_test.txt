@@ -1,0 +1,11 @@
+>>> from funciones import es_bisiesto
+
+
+>>> es_bisiesto(2000)
+True
+>>> es_bisiesto(1900)
+False
+>>> es_bisiesto(1996)
+True
+>>> es_bisiesto(1997)
+False
