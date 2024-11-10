@@ -9,3 +9,13 @@ for i in range(5):
     # notas.insert(0, nota) # Si queremos que se añada al principio
 
 print(notas)
+
+# Percorrer a lista para calcular a media
+suma = 0
+
+for nota in notas:
+    suma += nota
+
+media = suma / len(notas)
+
+print(media)
