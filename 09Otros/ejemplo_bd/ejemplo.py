@@ -2,26 +2,31 @@ import mysql.connector
 
 # Conexión a la base de datos
 
-conexion = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="abc123.",
-    database="instituto"
-)
+try:
+    conexion = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="abc123.",
+        database="instituto"
+    )
 
-cursor = conexion.cursor(dictionary=True)
+    cursor = conexion.cursor(dictionary=True)
 
-# Consulta a la base de datos
+    # Consulta a la base de datos
 
-sentencia = "SELECT * FROM alumnos"
+    sentencia = "SELECT * FROM alumnos"
 
-cursor.execute(sentencia)
+    cursor.execute(sentencia)
 
-# Recuperación de los resultados
+    # Recuperación de los resultados
 
-resultados = cursor.fetchall()
+    resultados = cursor.fetchall()
 
-for alumno in resultados:
-    print("Nombre:", alumno["nombre"])
-    print("Apellidos:", alumno["apellidos"])
-    print("Correo-e:", alumno["correo_e"])
+    for alumno in resultados:
+        print("Nombre:", alumno["nombre"])
+        print("Apellidos:", alumno["apellidos"])
+        print("Correo-e:", alumno["correo_e"])
+        
+    conexion.close()
+except mysql.connector.Error as error:
+    print("Error de MySQL:", error)
