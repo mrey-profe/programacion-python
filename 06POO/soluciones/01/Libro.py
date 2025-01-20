@@ -9,7 +9,6 @@ class Libro:
         self.autor = autor
         self.num_ejemplares = num_ejemplares
         self.num_ejemplares_prestados = 0
-        pass
 
     def __str__(self) -> str:
         return (
@@ -23,13 +22,25 @@ class Libro:
             return True
         else: # Non hai exemplares para prestar
             return False
+        
+    def devolver(self) -> bool:
+        if self.num_ejemplares_prestados > 0:
+            self.num_ejemplares_prestados -= 1
+            return True
+        else: # Non hai exemplares prestados
+            return False
 
 if __name__ == "__main__": # Executado só se se lanza como un script, e non se se importa como un módulo
     l = Libro("Cien años de soledad", "Gabriel García Márquez", 3)
     l2 = Libro("El Quijote", "Miguel de Cervantes")
     l3 = Libro("Harry Potter", "J.K. Rowling", 5)
-    print(l)
+    print(l) # equivalente a l.__str__()
     l.prestar()
     print(l)
     print(l2)
     print(l3)
+    if l2.devolver():
+        print("Libro devolto correctamente")
+    else:
+        print("Non hai exemplares prestados deste libro")
+    print(l)
