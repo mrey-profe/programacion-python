@@ -25,5 +25,11 @@ if __name__ == "__main__":
     print(Jugada.TIJERAS > Jugada.PAPEL)
     print(Jugada.PAPEL > Jugada.TIJERAS)
     print(Jugada.PIEDRA > Jugada.PIEDRA)
+    print(Jugada.PIEDRA < Jugada.TIJERAS)
+    print(Jugada.PIEDRA == Jugada.TIJERAS)
+    print(Jugada.PIEDRA == Jugada.PIEDRA)
+    
+    
+    
     
     
