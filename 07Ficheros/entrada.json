@@ -1,0 +1,51 @@
+{
+    "personajes": [
+        {
+            "nombre": "Harry Potter",
+            "casa": "Gryffindor",
+            "hijos": ["James Sirius", "Albus Severus", "Lily Luna"],
+            "amigos": ["Ron Weasley", "Hermione Granger"]
+        },
+        {
+            "nombre": "Hermione Granger",
+            "casa": "Gryffindor",
+            "hijos": ["Rose", "Hugo"],
+            "amigos": ["Harry Potter", "Ron Weasley"]
+        }
+    ],
+    "hechizos": [
+        {"nombre": "Expelliarmus", "efecto": "Desarmar"},
+        {"nombre": "Expecto Patronum", "efecto": "Invocar Patronus"},
+        {"nombre": "Wingardium Leviosa", "efecto": "Levitar objetos"}
+    ],
+    "casas": {
+        "Gryffindor": {
+            "fundador": "Godric Gryffindor",
+            "valores": ["valentía", "determinación"]
+        },
+        "Slytherin": {
+            "fundador": "Salazar Slytherin",
+            "valores": ["ambición", "astucia"]
+        },
+        "Hufflepuff": {
+            "fundador": "Helga Hufflepuff",
+            "valores": ["lealtad", "paciencia"]
+        },
+        "Ravenclaw": {
+            "fundador": "Rowena Ravenclaw",
+            "valores": ["inteligencia", "creatividad"]
+        }
+    },
+    "libros": [
+        {
+            "título": "Harry Potter y la piedra filosofal",
+            "año": 1997,
+            "personajes_principales": ["Harry Potter", "Ron Weasley", "Hermione Granger"]
+        },
+        {
+            "título": "Harry Potter y la cámara secreta",
+            "año": 1998,
+            "personajes_principales": ["Harry Potter", "Ron Weasley", "Hermione Granger", "Ginny Weasley"]
+        }
+    ]
+}
