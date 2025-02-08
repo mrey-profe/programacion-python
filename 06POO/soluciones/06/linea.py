@@ -10,6 +10,10 @@ class Linea:
         self.__coordenadas[0].moverHorizontal(positivo, valor)
         self.__coordenadas[1].moverHorizontal(positivo, valor)
         
+    def moverVertical(self, positivo: bool, valor: int) -> None:
+        self.__coordenadas[0].moverVertical(positivo, valor)
+        self.__coordenadas[1].moverVertical(positivo, valor)
+        
     def __str__(self):
         return f"Liña que pasa por: \n {self.__coordenadas[0]} \n {self.__coordenadas[1]}"
     
