@@ -21,7 +21,7 @@ def contar_opcions(escollas: list[str]) -> dict[str,int]:
             resultado[opcion] += 1
     return resultado
 
-def determinar_maioría(opcions: tuple[str], escollas: list[str]) -> str:
+def determinar_maioría(opcions: tuple[str, ...], escollas: list[str]) -> str:
     """
     Determina a opción máis escollida dunha lista de escollas.
     
