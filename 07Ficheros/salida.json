@@ -1,1 +1,22 @@
-{"Expelliarmus": "Desarma al oponente, quit\u00e1ndole su varita.", "Expecto Patronum": "Invoca un Patronus para protegerse de los Dementores.", "Alohomora": "Abre cerraduras y puertas cerradas con llave.", "Wingardium Leviosa": "Hace levitar objetos.", "Lumos": "Genera luz en la punta de la varita.", "Nox": "Apaga la luz generada por Lumos.", "Petrificus Totalus": "Paraliza completamente al objetivo.", "Riddikulus": "Convierte un boggart en algo rid\u00edculo.", "Sectumsempra": "Causa heridas profundas como si fueran hechas por una espada invisible.", "Avada Kedavra": "Maldici\u00f3n asesina que provoca la muerte instant\u00e1nea.", "Imperio": "Controla completamente la voluntad de la v\u00edctima.", "Crucio": "Causa un dolor extremo y ag\u00f3nico a la v\u00edctima.", "Reparo": "Repara objetos rotos o da\u00f1ados.", "Incendio": "Genera fuego desde la varita.", "Protego": "Crea un escudo protector contra hechizos.", "Confundo": "Confunde a la v\u00edctima, desorient\u00e1ndola.", "Muffliato": "Evita que las personas cercanas escuchen conversaciones.", "Relashio": "Obliga a soltar lo que se sostiene.", "Accio": "Atrae objetos hacia el conjurador.", "Obliviate": "Borra recuerdos espec\u00edficos de la v\u00edctima."}
+{
+    "Expelliarmus": "Desarma al oponente, quit\u00e1ndole su varita.",
+    "Expecto Patronum": "Invoca un Patronus para protegerse de los Dementores.",
+    "Alohomora": "Abre cerraduras y puertas cerradas con llave.",
+    "Wingardium Leviosa": "Hace levitar objetos.",
+    "Lumos": "Genera luz en la punta de la varita.",
+    "Nox": "Apaga la luz generada por Lumos.",
+    "Petrificus Totalus": "Paraliza completamente al objetivo.",
+    "Riddikulus": "Convierte un boggart en algo rid\u00edculo.",
+    "Sectumsempra": "Causa heridas profundas como si fueran hechas por una espada invisible.",
+    "Avada Kedavra": "Maldici\u00f3n asesina que provoca la muerte instant\u00e1nea.",
+    "Imperio": "Controla completamente la voluntad de la v\u00edctima.",
+    "Crucio": "Causa un dolor extremo y ag\u00f3nico a la v\u00edctima.",
+    "Reparo": "Repara objetos rotos o da\u00f1ados.",
+    "Incendio": "Genera fuego desde la varita.",
+    "Protego": "Crea un escudo protector contra hechizos.",
+    "Confundo": "Confunde a la v\u00edctima, desorient\u00e1ndola.",
+    "Muffliato": "Evita que las personas cercanas escuchen conversaciones.",
+    "Relashio": "Obliga a soltar lo que se sostiene.",
+    "Accio": "Atrae objetos hacia el conjurador.",
+    "Obliviate": "Borra recuerdos espec\u00edficos de la v\u00edctima."
+}
