@@ -1,0 +1,24 @@
+{
+    "Inform\u00e1tica": [
+        {
+            "nome": "Marta",
+            "apellidos": "Rey"
+        },
+        {
+            "nome": "Cristina",
+            "apellidos": "G\u00f3mez"
+        }
+    ],
+    "FOL": [
+        {
+            "nome": "Adelina",
+            "apellidos": "Cobo"
+        }
+    ],
+    "Galego": [
+        {
+            "nome": "Ana",
+            "apellidos": "Gonz\u00e1lez"
+        }
+    ]
+}
