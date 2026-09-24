@@ -1,0 +1,17 @@
+{%- extends 'lab/index.html.j2' -%}
+{% block extra_css %}
+{{ super() }}
+<style type="text/css">
+.jp-InputArea,
+.jp-InputArea-editor {
+    overflow: visible !important;
+}
+.cm-editor.cm-s-jupyter .highlight pre,
+.jp-OutputArea-output pre,
+.jp-RenderedText pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
+</style>
+{% endblock extra_css %}
